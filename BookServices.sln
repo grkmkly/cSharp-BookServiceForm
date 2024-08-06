@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34322.80
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookServices", "BookServices\BookServices.csproj", "{29F7D88B-C9C2-46AD-A06F-7E60395B2818}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "httpServices", "httpServices\httpServices.csproj", "{BCEFB1CD-2C07-4F73-AE12-F3E096C4725A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29F7D88B-C9C2-46AD-A06F-7E60395B2818}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29F7D88B-C9C2-46AD-A06F-7E60395B2818}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29F7D88B-C9C2-46AD-A06F-7E60395B2818}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29F7D88B-C9C2-46AD-A06F-7E60395B2818}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCEFB1CD-2C07-4F73-AE12-F3E096C4725A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCEFB1CD-2C07-4F73-AE12-F3E096C4725A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCEFB1CD-2C07-4F73-AE12-F3E096C4725A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCEFB1CD-2C07-4F73-AE12-F3E096C4725A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5FA3AB2F-3F70-4D21-9B1B-0E596579C010}
+	EndGlobalSection
+EndGlobal

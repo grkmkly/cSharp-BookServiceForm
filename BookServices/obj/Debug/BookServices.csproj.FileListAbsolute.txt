@@ -1,0 +1,17 @@
+C:\Users\Görkem\Desktop\Projeler\C##\BookServices\BookServices\obj\Debug\BookServices.csproj.AssemblyReference.cache
+C:\Users\Görkem\Desktop\Projeler\C##\BookServices\BookServices\obj\Debug\BookServices.Properties.Resources.resources
+C:\Users\Görkem\Desktop\Projeler\C##\BookServices\BookServices\obj\Debug\BookServices.csproj.GenerateResource.cache
+C:\Users\Görkem\Desktop\Projeler\C##\BookServices\BookServices\obj\Debug\BookServices.csproj.CoreCompileInputs.cache
+C:\Users\Görkem\Desktop\Projeler\C##\BookServices\BookServices\bin\Debug\BookServices.exe.config
+C:\Users\Görkem\Desktop\Projeler\C##\BookServices\BookServices\bin\Debug\BookServices.exe
+C:\Users\Görkem\Desktop\Projeler\C##\BookServices\BookServices\bin\Debug\BookServices.pdb
+C:\Users\Görkem\Desktop\Projeler\C##\BookServices\BookServices\bin\Debug\httpServices.dll
+C:\Users\Görkem\Desktop\Projeler\C##\BookServices\BookServices\bin\Debug\httpServices.pdb
+C:\Users\Görkem\Desktop\Projeler\C##\BookServices\BookServices\obj\Debug\BookServices.csproj.CopyComplete
+C:\Users\Görkem\Desktop\Projeler\C##\BookServices\BookServices\obj\Debug\BookServices.exe
+C:\Users\Görkem\Desktop\Projeler\C##\BookServices\BookServices\obj\Debug\BookServices.pdb
+C:\Users\Görkem\Desktop\Projeler\C##\BookServices\BookServices\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Görkem\Desktop\Projeler\C##\BookServices\BookServices\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Görkem\Desktop\Projeler\C##\BookServices\BookServices\obj\Debug\BookServices.MainForm.resources
+C:\Users\Görkem\Desktop\Projeler\C##\BookServices\BookServices\obj\Debug\BookServices.Signin.resources
+C:\Users\Görkem\Desktop\Projeler\C##\BookServices\BookServices\obj\Debug\BookServices.Register.resources

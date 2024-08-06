@@ -1,0 +1,9 @@
+C:\Users\Görkem\Desktop\Projeler\C##\BookServices\httpServices\bin\Debug\httpServices.dll
+C:\Users\Görkem\Desktop\Projeler\C##\BookServices\httpServices\bin\Debug\httpServices.pdb
+C:\Users\Görkem\Desktop\Projeler\C##\BookServices\httpServices\obj\Debug\httpServices.csproj.AssemblyReference.cache
+C:\Users\Görkem\Desktop\Projeler\C##\BookServices\httpServices\obj\Debug\httpServices.csproj.CoreCompileInputs.cache
+C:\Users\Görkem\Desktop\Projeler\C##\BookServices\httpServices\obj\Debug\httpServices.dll
+C:\Users\Görkem\Desktop\Projeler\C##\BookServices\httpServices\obj\Debug\httpServices.pdb
+C:\Users\Görkem\Desktop\Projeler\C##\BookServices\httpServices\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Görkem\Desktop\Projeler\C##\BookServices\httpServices\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Görkem\Desktop\Projeler\C##\BookServices\httpServices\obj\Debug\httpServices.csproj.CopyComplete
