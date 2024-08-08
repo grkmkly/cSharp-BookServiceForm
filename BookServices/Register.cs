@@ -21,7 +21,7 @@ namespace BookServices
         private  async void button1_Click(object sender, EventArgs e)
         {
             httpClass httpClass = new httpClass();
-            User user = new User(Rusername.Text,Rpassword.Text);
+            httpServices.User user = new httpServices.User(Rusername.Text, Rpassword.Text);
             Respon resultR = await httpClass.PostRegister(user);
             if (resultR.isActive)
             {

@@ -24,7 +24,7 @@ namespace httpServices
         async public Task<Respon> PostSignin(User u)
         {
             HttpClient client = new HttpClient();
-            User user1 = new User(u.username,u.password);
+            User user1 = new User(u.Username,u.Password);
             var jsonPayload = JsonConvert.SerializeObject(user1);
             HttpContent content = new StringContent(jsonPayload, Encoding.UTF8, "application/json");
             var response = await client.PostAsync("http://localhost:8080/signinuser", content);
@@ -37,7 +37,7 @@ namespace httpServices
         {
 
             HttpClient client = new HttpClient();
-            User user1 = new User(u.username,u.password);
+            User user1 = new User(u.Username,u.Password);
             var jsonPaylod = JsonConvert.SerializeObject(user1);
             HttpContent content = new StringContent(jsonPaylod, Encoding.UTF8, "application/json");
             var response = await client.PostAsync("http://localhost:8080/registeruser", content);
@@ -45,33 +45,53 @@ namespace httpServices
             Respon data = JsonConvert.DeserializeObject<Respon>(result);
             return data;
         }
+        async public Task<User> getUserbyId(string id)
+        {
+            HttpClient client = new HttpClient();
+            string url = string.Format("http://localhost:8080/getuser/{0}", id);
+            var response = await client.GetAsync(url);
+            string result = await response.Content.ReadAsStringAsync();
+            User data = JsonConvert.DeserializeObject<User>(result);
+            return data;
+        }
+        async public Task<List<Book>> getBooks<Book>()
+        {
+            HttpClient client = new HttpClient();
+            var response = await client.GetAsync("http://localhost:8080/getbooks");
+            string result = await response.Content.ReadAsStringAsync();
+            List<Book> data = JsonConvert.DeserializeObject<List<Book>>(result);
+            return data;
+        }
     }
     public class Book
     {
-        public string _id { get; set; }
-        public string name { get; set; }
-        public string pages { get; set; }
-        public string author { get; set; }
-        public string topic { get; set; }
+        public string ObjectID { get; set; }
+        public string Name { get; set; }
+        public string Author { get; set; }
+        public string Pages { get; set; }
+        public string Topic { get; set; }
     }
     public class User
     {
-        public string _id { get; set;}
-        public string username { get; set;}
-        public string password { get; set;}
-        public List<Book> books { get; set; }
+        public string ObjectId { get; set;}
+        public string Username { get; set;}
+        public string Password { get; set;}
+        public List<Book> Books { get; set; }
         public User()
         {
 
         }
         public User(string username ,string password)
         {
-            this.username = username;
-            this.password = password;
+            this.Username = username;
+            this.Password = password;
         }
     }
     public class Respon
     {
         public bool isActive { get; set; }
+        public string ID { get; set; }
+        public string Token { get; set; }
+        public string username { get; set;}
     }
 }

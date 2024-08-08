@@ -49,6 +49,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddBook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddBook.Designer.cs">
+      <DependentUpon>AddBook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User%27sBook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User%27sBook.Designer.cs">
+      <DependentUpon>User%27sBook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterface.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserInterface.Designer.cs">
+      <DependentUpon>UserInterface.cs</DependentUpon>
+    </Compile>
     <Compile Include="Register.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -69,6 +87,15 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AddBook.resx">
+      <DependentUpon>AddBook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User%27sBook.resx">
+      <DependentUpon>User%27sBook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterface.resx">
+      <DependentUpon>UserInterface.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>

@@ -15,3 +15,6 @@ C:\Users\Görkem\Desktop\Projeler\C##\BookServices\BookServices\bin\Debug\Newton
 C:\Users\Görkem\Desktop\Projeler\C##\BookServices\BookServices\obj\Debug\BookServices.MainForm.resources
 C:\Users\Görkem\Desktop\Projeler\C##\BookServices\BookServices\obj\Debug\BookServices.Signin.resources
 C:\Users\Görkem\Desktop\Projeler\C##\BookServices\BookServices\obj\Debug\BookServices.Register.resources
+C:\Users\Görkem\Desktop\Projeler\C##\BookServices\BookServices\obj\Debug\BookServices.User_sBook.resources
+C:\Users\Görkem\Desktop\Projeler\C##\BookServices\BookServices\obj\Debug\BookServices.UserInterface.resources
+C:\Users\Görkem\Desktop\Projeler\C##\BookServices\BookServices\obj\Debug\BookServices.AddBook.resources
