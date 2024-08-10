@@ -13,14 +13,6 @@ namespace httpServices
 {
     public class httpClass
     {
-        //async public Task<List<T>> GetValues<T>()
-        //{
-        //        HttpClient client = new HttpClient();
-        //        var response = await client.GetAsync("http://localhost:8080/getbooks");
-        //        string responseBody = await response.Content.ReadAsStringAsync();
-        //        List<T> data = JsonConvert.DeserializeObject<List<T>>(responseBody);
-        //        return data;
-        //}
         async public Task<Respon> PostSignin(User u)
         {
             HttpClient client = new HttpClient();
@@ -62,6 +54,19 @@ namespace httpServices
             List<Book> data = JsonConvert.DeserializeObject<List<Book>>(result);
             return data;
         }
+        async public Task<Respon> addbookUser(User u , Book b)
+        {
+            HttpClient client = new HttpClient();
+            var usersbook = new Usersbook();
+            usersbook.userID = u.ObjectId;
+            usersbook.bookID = b.ObjectID;
+            var jsonPayload = JsonConvert.SerializeObject(usersbook);
+            HttpContent content = new StringContent(jsonPayload,Encoding.UTF8,"application/json");
+            var response = await client.PostAsync("http://localhost:8080/addbookuser", content);
+            string result = await response.Content.ReadAsStringAsync();
+            Respon data = JsonConvert.DeserializeObject<Respon>(result);
+            return data;
+        }
     }
     public class Book
     {
@@ -93,5 +98,9 @@ namespace httpServices
         public string ID { get; set; }
         public string Token { get; set; }
         public string username { get; set;}
+    }
+    public class Usersbook{
+        public string userID { get; set; }
+        public string bookID { get; set; }
     }
 }
