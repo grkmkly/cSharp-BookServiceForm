@@ -67,6 +67,16 @@ namespace httpServices
             Respon data = JsonConvert.DeserializeObject<Respon>(result);
             return data;
         }
+        async public Task<Respon> CreateBook(Book b)
+        {
+            HttpClient client = new HttpClient();
+            var jsonPayload = JsonConvert.SerializeObject(b);
+            HttpContent content = new StringContent (jsonPayload,Encoding.UTF8,"application/json");
+            var response = await client.PostAsync("http://localhost:8080/createbook", content);
+            string result = await response.Content.ReadAsStringAsync();
+            Respon data = JsonConvert.DeserializeObject<Respon>(result);
+            return data;
+        }
     }
     public class Book
     {

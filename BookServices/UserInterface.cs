@@ -42,5 +42,11 @@ namespace BookServices
             AddBook addBook = new AddBook(this.objectID);
             addBook.Show();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            createbookForm CreateBookForm = new createbookForm();
+            CreateBookForm.Show();
+        }
     }
 }

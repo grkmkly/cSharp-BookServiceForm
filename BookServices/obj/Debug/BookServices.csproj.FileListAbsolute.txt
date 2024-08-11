@@ -18,3 +18,4 @@ C:\Users\Görkem\Desktop\Projeler\C##\BookServices\BookServices\obj\Debug\BookSe
 C:\Users\Görkem\Desktop\Projeler\C##\BookServices\BookServices\obj\Debug\BookServices.User_sBook.resources
 C:\Users\Görkem\Desktop\Projeler\C##\BookServices\BookServices\obj\Debug\BookServices.UserInterface.resources
 C:\Users\Görkem\Desktop\Projeler\C##\BookServices\BookServices\obj\Debug\BookServices.AddBook.resources
+C:\Users\Görkem\Desktop\Projeler\C##\BookServices\BookServices\obj\Debug\BookServices.createbookForm.resources

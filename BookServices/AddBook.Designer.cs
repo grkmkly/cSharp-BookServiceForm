@@ -34,7 +34,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(564, 344);
+            this.button1.Location = new System.Drawing.Point(1214, 343);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(224, 75);
             this.button1.TabIndex = 0;
@@ -49,14 +49,14 @@
             this.listBox1.ItemHeight = 36;
             this.listBox1.Location = new System.Drawing.Point(12, 46);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(776, 256);
+            this.listBox1.Size = new System.Drawing.Size(1426, 256);
             this.listBox1.TabIndex = 1;
             // 
             // AddBook
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1450, 450);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.button1);
             this.Name = "AddBook";
